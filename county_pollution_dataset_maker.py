@@ -39,5 +39,5 @@ data = data.replace('.', '')
 
 # Write data to a new file
 
-data.to_csv(path + 'raw_pollution_data.csv', index = False)
+data.to_csv(path[0:42] + 'raw_pollution_data.csv', index = False)
 
